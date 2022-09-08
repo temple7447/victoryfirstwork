@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    color: white;
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+}
+.video_qua{
+    background-size: 100px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -4;
+}
+.welcome{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    
+    width: 100vw;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.container{
+    width: 500px;
+    height: 450px;
+    border-radius: 8px;
+    line-height: 15px;
+    display: flex;
+    border: 2px solid white;
+    padding: 70px 0px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+    left: 35%;
+
+    
+}
+.anestouch:visited,
+.stayN:visited,
+.ofledn:visited,
+.HomeS:visited,
+.stayA:visited,
+.stayH:visited{
+cursor:progress;
+}
+.anestouch:hover,
+.stayN:hover,
+.ofledn:hover,
+.HomeS:hover,
+.stayA:hover,
+.stayH:hover
+{
+    transform: scale(2);
+    color: ;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: -2rem;
+}
+.anestouch{
+    background-image: url('/img/STAY\ HEALTHCARE.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.stayN{
+    background-image: url('/img/STAY\ HEALTHCARE.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.ofledn{
+    background-image: url('/img/STAY\ HEALTHCARE.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.HomeS{
+    background-image: url('/img/stay\ fare\ 2.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.stayA{
+    background-image: url('/img/stay\ auto\ 1.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.stayH{
+    background-image: url('/img/STAY\ HEALTHCARE.png'); 
+    background-size:100%;
+    border-radius: 15px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.company_logo{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+}
